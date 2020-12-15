@@ -17,7 +17,7 @@ The video features all of the vocalists in separate panes
 1) All other vocalists used headphones to follow the base track
 1) A tone was played by the audio recorder several seconds prior to the base track.  The tone was captured by the video capture device.
 
-##Editing
+## Editing
 
 1) Get the video timebase (tbn): ffprobe vid.mov
 1) All video files processed using FFMPEG: -ss [TONE TIME MINUS ONE SECOND] -i [ORIGINAL VID] -video_track_timescale [30000 or TIMEBASE] -vcodec libx264 -crf 12 -x264-params keyint=1
