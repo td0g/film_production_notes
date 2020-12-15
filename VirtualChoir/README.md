@@ -24,3 +24,7 @@ The video features all of the vocalists in separate panes
 1) Get the tone times using this .bat file: @for %%i in (*.mp4) do @ffmpeg -n -t 8 -i "%%i" -filter_complex [0]showspectrum=s=1280x100:mode=combined:color=intensity:saturation=5:slide=1:scale=cbrt,format=yuv420p -vcodec libx264 -x264-params keyint=1 "waveform\%%~ni.mp4"
 1) Trim all clips to the tone time MINUS one second
 
+## Useful Links
+
+* FFMPEG [concat demuxer](http://ffmpeg.org/ffmpeg-formats.html#concat-1)
+
