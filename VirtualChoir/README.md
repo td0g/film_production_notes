@@ -23,6 +23,7 @@ The video features all of the vocalists in separate panes
 1) All video files processed using FFMPEG: -i [ORIGINAL VID] -video_track_timescale [30000 or TIMEBASE] -vcodec libx264 -crf 12 -x264-params keyint=1
 1) Get the tone times using this .bat file: @for %%i in (*.mp4) do @ffmpeg -n -t 8 -i "%%i" -filter_complex [0]showspectrum=s=1280x100:mode=combined:color=intensity:saturation=5:slide=1:scale=cbrt,format=yuv420p -vcodec libx264 -x264-params keyint=1 "waveform\%%~ni.mp4"
 1) Trim all clips to the tone time MINUS one second
+1) Check synchronization of videos using checkWaveform.vbs script.  Run the script in the folder with the trimmed videos and review the waveform.mp4 video.
 
 ## Useful Links
 
