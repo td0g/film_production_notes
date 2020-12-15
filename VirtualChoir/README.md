@@ -19,5 +19,6 @@ The video features all of the vocalists in separate panes
 
 ##Editing
 
-1) All video files processed using FFMPEG: -ss [TONE TIME MINUS ONE SECOND] -i [ORIGINAL VID] -vcodec libx264 -crf 12 -x264-params keyint=1
+1) Get the video timebase (tbn): ffprobe vid.mov
+1) All video files processed using FFMPEG: -ss [TONE TIME MINUS ONE SECOND] -i [ORIGINAL VID] -video_track_timescale [30000 or TIMEBASE] -vcodec libx264 -crf 12 -x264-params keyint=1
 
