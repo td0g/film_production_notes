@@ -37,7 +37,13 @@ There are three types of lighting used in our studio: Ambient lighting (the over
 
 ## Editing
 
+### Interview Portion
+
 TBC
+
+### Speaking Portion
+
+TBC (STYLE GUIDE: Fonts, Colours, Transitions)
 
 ## Useful Links
 
