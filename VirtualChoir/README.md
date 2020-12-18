@@ -19,11 +19,19 @@ The video features all of the vocalists in separate panes
 
 ## Editing
 
+### Video Prep
+
 1) Get the video timebase (tbn): ffprobe vid.mov
 1) All video files processed using FFMPEG: -i [ORIGINAL VID] -video_track_timescale [30000 or TIMEBASE] -vcodec libx264 -crf 12 -x264-params keyint=1
-1) Get the tone times using this .bat file: @for %%i in (*.mp4) do @ffmpeg -n -t 8 -i "%%i" -filter_complex [0]showspectrum=s=1280x100:mode=combined:color=intensity:saturation=5:slide=1:scale=cbrt,format=yuv420p -vcodec libx264 -x264-params keyint=1 "waveform\%%~ni.mp4"
-1) Trim all clips to the tone time MINUS one second
-1) Check synchronization of videos using [checkWaveform.vbs](https://raw.githubusercontent.com/td0g/film_production_notes/main/VirtualChoir/checkWaveform.vbs) script.  Run the script in the folder with the trimmed videos and review the waveform.mp4 video.
+1) Get the tone times using [checkWaveform.vbs](https://raw.githubusercontent.com/td0g/film_production_notes/main/VirtualChoir/checkWaveform.vbs) script.  Run the script in the folder with the original videos
+1) Create a .bat file to process every video file: ffmpeg -n -ss 12.17 -i vid.MOV -vf setpts=PTS-STARTPTS -video_track_timescale 30000 -vcodec libx264 -crf 12 -x264-params keyint=1 proc\vid.mp4
+1) At the end of the .bat file, add a grid review process: @for %%i in (\*.MOV) do @ffmpeg -n -i "%%i" -vf scale=960:540,drawgrid=h=54:w=96 -vcodec libx264 -crf 22 -preset veryfast "OL\%%~ni.mp4"
+1) Scale each video to 640x360 for basic editing.  This will improve speed substantially.
+
+### Video Editing
+
+1) Using the VirtualChoirEditor.xlsm spreadsheet, create the video
+1) After reviewing the video framing, re-process the videos as above, except add this line to the filter: ,crop=y=in_h\*0.07:h=in_h\*(1-0.2):x=in_w\*0.15:w=in_w\*(1-0.2),scale=1920:1080 .  This will allow cropping (using the grid review videos, where each grid line corresponds to 0.1 of the image width/height)
 
 ## Useful Links
 
