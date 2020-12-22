@@ -29,6 +29,11 @@ Following is a checklist for using **Canon DSLR's** for video recording.  Other 
 
 ## Filming
 
+### Camera Checklist
+
+1) Framing - Is the interviewee being clipped?  Is the backdrop well framed?
+1) Focus
+
 ### WITH Sound Technician
 
 1) The **sound technician** is responsible for coordinating the start of the recording
