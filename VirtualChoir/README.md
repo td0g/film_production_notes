@@ -33,6 +33,12 @@ The video features all of the vocalists in separate panes
 1) Using the VirtualChoirEditor.xlsm spreadsheet, create the video
 1) After reviewing the video framing, re-process the videos as above, except add this line to the filter: ,crop=y=in_h\*0.07:h=in_h\*(1-0.2):x=in_w\*0.15:w=in_w\*(1-0.2),scale=1920:1080 .  This will allow cropping (using the grid review videos, where each grid line corresponds to 0.1 of the image width/height)
 
+### Video Concatenating
+
+* Using FFMPEG's Concat Demuxer results in loss of audio sync.  I opted to use the Overlay filter and re-encode all the intermediate clips (LOSSLESS encoding)
+* Trimming the clips to exactly the correct frame number results in some stutter at the very beginning of some clips.  I corrected this by padding the videos with 10 extra frames before and after the desired clip time which seemed to correct the stutter.  These frames aren't visible in the final edit but allow the demuxer / decoder time to stabilize the video.
+* Going forward, I should look into other codecs to see if there is one which doesn't have the frame stutter problem.
+
 ## Useful Links
 
 * FFMPEG [concat demuxer](http://ffmpeg.org/ffmpeg-formats.html#concat-1)
