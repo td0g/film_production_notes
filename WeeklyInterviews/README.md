@@ -35,15 +35,15 @@ Following is a checklist for using **Canon DSLR's** for video recording.  Other 
 1) Framing - Is the interviewee being clipped?  Is the backdrop well framed?
 1) Focus
 
-### Starting WITH Sound Technician
+### Starting WITH Audio Technician
 
-1) The **sound technician** is responsible for coordinating the start of the recording
-1) When everyone is ready, the sound technician will announce something to the effect of '**Recording Start**'.  The audio and video recordings will begin **immediately AFTER** the announcement.
-1) The sound technician will play a tone to synchronize the audio and video.  Everyone must be **silent until the tone is sounded**.  The tone should be sounded 1 - 5 seconds after the 'Recording Start' announcement.  
+1) The **audio technician** is responsible for coordinating the start of the recording
+1) When everyone is ready, the audio technician will announce something to the effect of '**Recording Start**'.  The audio and video recordings will begin **immediately AFTER** the announcement.
+1) The audio technician will play a tone to synchronize the audio and video.  Everyone must be **silent until the tone is sounded**.  The tone should be sounded 1 - 5 seconds after the 'Recording Start' announcement.  
 1) Someone will announce **Interviewee Name** and **Take**
 1) Proceed with interview
 
-### Starting WITHOUT Sound Technician
+### Starting WITHOUT Audio Technician
 
 1) The camera technician is responsible for coordinating the start of the recording
 1) When everyone is ready, the camera technician will announce something to the effect of '**Recording Start**'  The video recording will begin **immediately AFTER** the announcement.
@@ -54,7 +54,9 @@ Following is a checklist for using **Canon DSLR's** for video recording.  Other 
 
 ### Post Processing
 
-TBC
+If the audio was recorded separately, the audio technician will process the audio and send it to the editing team.  Someone on the team will mux it into the video.
+1) The best tool for muxing is [FFMPEG](https://ffmpeg.org/download.html).  Talk to Tyler about installing it.
+1) Use the following FFMPEG command to get the tone times: 'ffmpeg -t 30 -i "Repentance - Emma - Mixdown.wav" -t 30 -i "MVI_3423.MOV" -filter_complex "[0:a]showwaves=s=1280x202:mode=line[sw];[1:v][sw]overlay[V]" -map [V]:v -map 0:a output.mp4'
 
 ### Interview Portion
 
