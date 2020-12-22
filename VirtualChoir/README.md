@@ -30,7 +30,7 @@ The video features all of the vocalists in separate panes
 
 ### Video Editing
 
-1) Using the VirtualChoirEditor.xlsm spreadsheet, create the video
+1) Using the [Virtual Choir Editor.xlsm](https://github.com/td0g/film_production_notes/blob/main/VirtualChoir/Virtual%20Choir%20Editor.xlsm) spreadsheet, create the video
 1) After reviewing the video framing, re-process the videos as above, except add this line to the filter: ,crop=y=in_h\*0.07:h=in_h\*(1-0.2):x=in_w\*0.15:w=in_w\*(1-0.2),scale=1920:1080 .  This will allow cropping (using the grid review videos, where each grid line corresponds to 0.1 of the image width/height)
 
 ### Video Concatenating
