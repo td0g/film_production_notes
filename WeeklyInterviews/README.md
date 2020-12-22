@@ -39,7 +39,7 @@ Following is a checklist for using **Canon DSLR's** for video recording.  Other 
 
 1) The **sound technician** is responsible for coordinating the start of the recording
 1) When everyone is ready, the sound technician will announce something to the effect of '**Recording Start**'.  The audio and video recordings will begin **immediately AFTER** the announcement.
-1) The sound technician will play a tone to synchronize the audio and video.  Everyone must be **silent until the tone is sounded**.  The tone should be sounded between 1 seconds and 5 seconds after the 'Recording Start' announcement.  
+1) The sound technician will play a tone to synchronize the audio and video.  Everyone must be **silent until the tone is sounded**.  The tone should be sounded 1 - 5 seconds after the 'Recording Start' announcement.  
 1) Someone will announce **Interviewee Name** and **Take**
 1) Proceed with interview
 
