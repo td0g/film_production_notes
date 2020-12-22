@@ -14,16 +14,23 @@ Several individuals are interviewed on a weekly basis
 
 ### Lighting
 
-There are three types of lighting used in our studio: Ambient lighting (the overhead lights), key/fill lighting (the softboxes), and targeted lighting (various lamps).  We try to avoid different key/fill lights, just keep it simple for the interview look.
+There are three types of lighting used in our studio: Ambient lighting (the overhead lights), key/fill lighting (the softboxes), and targeted lighting (various lamps).  We try to avoid separate key/fill lights, just keep it simple for the interview look.
 
 * **Light Colour**: Make sure the temperature of all lights are the same!
+
+### Camera
+
+* **Quality**: Use 1080p @ 30 fps.  If this is not available then use 720 @ 30 fps.  DO NOT USE 24 fps.
+* **Exposure**: Use manual exposure settings - set the aperture / shutter speed, and turn off Auto ISO!  Use the largest aperture available (F/2.8 recommended).  The shutter speed should be the slowest possible (1/30 if recording at 30 fps).  Limit your ISO (on a t5i or 7D, keep the ISO below 800).
+* **Style**: Use the Standard recording style.
+* **Framing**: If multiple interviews are being filmed, do not adjust the framing after the first interviewee.  Instead adjust the seat to frame the interviewee.  Frame the shot with this in mind.
 
 ## Filming
 
 ### WITH Sound Technician
 
 1) The **sound technician** is responsible for coordinating the start of the recording
-1) When everyone is ready, the sound technician will announce '**Recording Start**' or similar.  The audio and video recordings will begin **immediately AFTER** the announcement.
+1) When everyone is ready, the sound technician will announce something to the effect of '**Recording Start**'.  The audio and video recordings will begin **immediately AFTER** the announcement.
 1) A tone is played to synchronize the audio and video.  Everyone must be **silent until the tone is sounded**.  The tone should be sounded between 1 seconds and 10 seconds after recording start.  
 1) Someone will announce **Interviewee Name** and **Take**
 1) Proceed with interview
@@ -31,7 +38,7 @@ There are three types of lighting used in our studio: Ambient lighting (the over
 ### WITHOUT Sound Technician
 
 1) The camera technician is responsible for coordinating the start of the recording
-1) When everyone is ready, the camera technician will announce 'Recording Start' or similar.
+1) When everyone is ready, the camera technician will announce something to the effect of '**Recording Start**'  The video recording will begin **immediately AFTER** the announcement.
 1) The camera technician will announce **Interviewee** and **Take**
 1) Proceed with interview
 
