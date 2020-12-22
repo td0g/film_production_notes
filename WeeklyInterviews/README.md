@@ -8,9 +8,9 @@ Several individuals are interviewed on a weekly basis
 * FFMPEG
 * Video Editor (iMovie, Shotcut, etc.)
 
-# Process
+# Studio
 
-## Equipment Setup
+## Setup
 
 ### Lighting
 
@@ -50,7 +50,7 @@ Following is a checklist for using **Canon DSLR's** for video recording.  Other 
 1) The camera technician will announce **Interviewee** and **Take**
 1) Proceed with interview
 
-## Editing
+# Editing
 
 ### Post Processing
 
