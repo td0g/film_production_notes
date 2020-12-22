@@ -52,6 +52,10 @@ Following is a checklist for using **Canon DSLR's** for video recording.  Other 
 
 ## Editing
 
+### Post Processing
+
+TBC
+
 ### Interview Portion
 
 TBC
