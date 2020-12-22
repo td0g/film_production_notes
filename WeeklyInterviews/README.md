@@ -22,6 +22,7 @@ There are three types of lighting used in our studio: Ambient lighting (the over
 
 Following is a checklist for using **Canon DSLR's** for video recording.  Other types of cameras should try to use the same or similar settings.
 
+* **White Balance**: Use Tungsten.  DO NOT USE Auto WB.
 * **Quality**: Use 1080p @ 30 fps.  If this is not available then use 720 @ 30 fps.  DO NOT USE 24 fps.
 * **Exposure**: Use manual exposure settings - set the aperture / shutter speed, and turn off Auto ISO!  Use the largest aperture available (F/2.8 recommended).  The shutter speed should be the slowest possible (1/30 if recording at 30 fps).  Limit your ISO (on a t5i or 7D, keep the ISO below 800).
 * **Style**: Use the Standard recording style.
