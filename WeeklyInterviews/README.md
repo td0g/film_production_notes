@@ -56,7 +56,10 @@ Following is a checklist for using **Canon DSLR's** for video recording.  Other 
 
 If the audio was recorded separately, the audio technician will process the audio and send it to the editing team.  Someone on the team will mux it into the video.
 1) The best tool for muxing is [FFMPEG](https://ffmpeg.org/download.html).  Talk to Tyler about installing it.
-1) Use the following FFMPEG command to get the tone times: 'ffmpeg -t 30 -i "Repentance - Emma - Mixdown.wav" -t 30 -i "MVI_3423.MOV" -filter_complex "[0:a]showwaves=s=1280x202:mode=line[sw];[1:v][sw]overlay[V]" -map [V]:v -map 0:a output.mp4'
+1) Use the following FFMPEG command to get the tone times: ffmpeg -t 10 -i "Audio.wav" -t 10 -i "Video.MOV" -filter_complex "\[0:a\]showwaves=s=1280x202:mode=line\[sw\];\[1:v\]\[sw\]overlay\[\V\]" -map \[V\]:v -map 0:a output.mp4
+1) Using the output video, identify the start times of the tone in the Video and the Audio.  Enter the tone times into this command to output a muxed video: ffmpeg -ss *Audio Tone Time* -i "Audio.wav" -ss *Video Tone Time* -i "Video.MOV" -c:v copy -map 1:v -map "0:a" -acodec aac -b:a 320k "mux.mov"
+1) Review the video to make sure the speech looks good!
+1) Send the muxed video to the video editor
 
 ### Interview Portion
 
