@@ -22,9 +22,9 @@ The video features all of the vocalists in separate panes
 ### Video Prep
 
 1) Get the video timebase (tbn): ffprobe vid.mov
-1) All video files processed using FFMPEG: -i [ORIGINAL VID] -video_track_timescale [30000 or TIMEBASE] -vcodec libx264 -crf 12 -x264-params keyint=1
+1) All video files processed using FFMPEG: -i [ORIGINAL VID] -video_track_timescale [30000 or TIMEBASE] -vcodec libx264 -pix_fmt yuvj420p -crf 12 -x264-params keyint=1
 1) Get the tone times using [checkWaveform.vbs](https://raw.githubusercontent.com/td0g/film_production_notes/main/VirtualChoir/checkWaveform.vbs) script.  Run the script in the folder with the original videos
-1) Create a .bat file to process every video file: ffmpeg -n -ss 12.17 -i vid.MOV -vf setpts=PTS-STARTPTS -video_track_timescale 30000 -vcodec libx264 -crf 12 -x264-params keyint=1 proc\vid.mp4
+1) Create a .bat file to process every video file: ffmpeg -n -ss 12.17 -i vid.MOV -vf setpts=PTS-STARTPTS -video_track_timescale 30000 -vcodec libx264 -pix_fmt yuvj420p -crf 12 -x264-params keyint=1 proc\vid.mp4
 1) At the end of the .bat file, add a grid review process: @for %%i in (\*.MOV) do @ffmpeg -n -i "%%i" -vf scale=960:540,drawgrid=h=54:w=96 -vcodec libx264 -crf 22 -preset veryfast "OL\%%~ni.mp4"
 1) Scale each video to 640x360 for basic editing.  This will improve speed substantially.
 
