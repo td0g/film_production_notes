@@ -36,8 +36,8 @@ The video features all of the vocalists in separate panes
 ### Video Concatenating
 
 * Using FFMPEG's Concat Demuxer results in loss of audio sync.  I opted to use the Overlay filter and re-encode all the intermediate clips (LOSSLESS encoding)
-* Trimming the clips to exactly the correct frame number results in some stutter at the very beginning of some clips.  I corrected this by padding the videos with 10 extra frames before and after the desired clip time which seemed to correct the stutter.  These frames aren't visible in the final edit but allow the demuxer / decoder time to stabilize the video.
-* Going forward, I should look into other codecs to see if there is one which doesn't have the frame stutter problem.
+* Trimming the clips to exactly the correct frame number results in some stutter at the very beginning of some clips.  I corrected this by padding the videos with 10 extra frames before and after the desired clip time which seemed to correct the stutter.  There remains an issue with timing which makes the videos stutter
+* I can't seem to fix the stutter.  **NEXT TIME**: Build an editor which encodes each frame as a continuous clip, then overlay the clip onto a single video.
 
 ## Useful Links
 
