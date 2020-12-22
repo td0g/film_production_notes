@@ -63,7 +63,7 @@ If the audio was recorded separately, the audio technician will process the audi
 
 ### Interview Portion
 
-TBC
+If you are using a Mac then iMovie is a great tool for editing.  On windows, [Shotcut](https://shotcut.org/download/) is the recommended video editor.
 
 ### Speaking Portion
 
