@@ -17,6 +17,7 @@ Several individuals are interviewed on a weekly basis
 There are three types of lighting used in our studio: Ambient lighting (the overhead lights), key/fill lighting (the softboxes), and targeted lighting (various lamps).  We try to avoid separate key/fill lights, just keep it simple for the interview look.
 
 * **Light Colour**: Make sure the temperature of all lights are the same!
+* **Instructional Videos**: [How to light a SIMPLE INTERVIEW in a Boring Room](https://www.youtube.com/watch?v=Dfv_0Pjni6U)
 
 ### Camera
 
