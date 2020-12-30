@@ -52,6 +52,10 @@ Following is a checklist for using **Canon DSLR's** for video recording.  Other 
 1) The camera technician will announce **Interviewee** and **Take**
 1) Proceed with interview
 
+## DRM
+
+* On the day of filming, a copy of all media will be provided to Tyler for archiving.  This way we don't need to worry about a data retention policy - Tyler will manage archiving.  The media is archived in a robust storage drive with local and offsite backups.
+
 # Editing
 
 ### Post Processing
@@ -70,16 +74,25 @@ If you are using a Mac then iMovie is a great tool for editing.  On windows, [Sh
 ### Speaking Portion
 
 **Fonts**:
+
 Ink Free - Friendly
+
 MV Boli – Scripture
+
 Verdana - Serious
+
 Kristen – Sillys
 
 **Colours**:
+
 #86ffa4
+
 #ffac86
+
 #ff86b4
+
 https://www.canva.com/colors/color-wheel/
+
 https://www.sessions.edu/color-calculator/
 
 TBC (STYLE GUIDE: Transitions)
