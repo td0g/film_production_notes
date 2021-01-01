@@ -24,11 +24,11 @@ Kristen – Sillys
 
 Text will be white (#ffffff) or one of the following three colours (designed using [canva.com](https://www.canva.com/colors/color-wheel/) and [sessions.edu](https://www.sessions.edu/color-calculator/)
 
-<span style="color:#86ffa4">#86ffa4</span>
+#86ffa4 ![86ffa4](https://via.placeholder.com/15/86ffa4/000000?text=+)
 
-![86ffa4](https://via.placeholder.com/15/86ffa4/000000?text=+)#ffac86
+#ffac86 ![ffac86](https://via.placeholder.com/15/ffac86/000000?text=+)
 
-#ff86b4
+#ff86b4 ![ff86b4](https://via.placeholder.com/15/ff86b4/000000?text=+)
 
 ### Transitions
 
