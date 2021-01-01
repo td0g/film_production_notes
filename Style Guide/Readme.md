@@ -26,7 +26,7 @@ Text will be white (#ffffff) or one of the following three colours (designed usi
 
 <span style="color:#86ffa4">#86ffa4</span>
 
-#ffac86
+![86ffa4](https://via.placeholder.com/15/86ffa4/000000?text=+)#ffac86
 
 #ff86b4
 
