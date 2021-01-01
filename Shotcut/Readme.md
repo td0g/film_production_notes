@@ -4,7 +4,7 @@
 
 Shotcut is available for free at [shotcut.org](https://shotcut.org/download/).  Please ensure you have the latest version!
 
-Get to know the style guide!!!
+Get to know the **style guide**!!!
 
 Shotcut is Free Open Source Software (FOSS), and has some minor quirks.  Good practice is to save regularly, and if the Shotcut is acting odd then try closing and reopening it.
 
