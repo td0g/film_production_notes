@@ -56,6 +56,8 @@ Following is a checklist for using **Canon DSLR's** for video recording.  Other 
 
 * Immediately after filming is complete, a copy of all media will be provided to Tyler for archiving.  This way we don't need to worry about a data retention policy - Tyler will manage archiving.  The media is archived in a robust storage drive with local and offsite backups.
 
+* The videos will be archived using the filename syntax *{Date Of Recording YYYY-MM-DD} _ {Index} _ {Name or Description}*
+
 # Editing
 
 ### Post Processing
